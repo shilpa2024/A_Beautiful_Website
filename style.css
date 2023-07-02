@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+    background-color: rgb(224, 232, 234);
+}
+/* .header,
+.icons{
+    margin: 10px;
+    padding: 20px;
+} */
+
+.ps1,
+.ps2,
+.ps3,
+.ps4,
+.ps5{
+    color: orangered;
+}
+.pl1,
+.pl2,
+.pl3,
+.pl4,
+.pl5{
+    color: green;
+}
+.icons{
+    font-size: 40px;
+    /* color: rgb(244, 53, 114); */
+    /* color: hotpink; */
+    color: rgb(230, 68, 133);
+    margin-left: 3em;
+    /* margin-top: 0em; */
+    position: fixed;
+    margin-top: 10px;
+    /* opacity: 0.7; */
+
+
+}
+.list{
+    margin-top:3em;
+}
+
+.list ul li{
+     display: inline-block;
+     /* align-items: center; */
+     padding: 20px;
+     font-family: Verdana ;
+     font-style: italic;
+     /* display: block; */
+     /* position: relative; */
+     border: 1px solid white;
+     border-radius: 50%;
+     animation: nav 2s infinite;
+     /* margin-top:-6em; */
+     /* margin: 0; */
+     /* padding: 0; */
+}
+@keyframes nav{
+    50%{
+        box-shadow: 10px 20px 30px 40px rgb(198, 236, 240);
+    }
+}
+
+.hr5-1{
+    margin-top: 2em;
+    border: 2px rgb(77, 226, 99);
+    width: 900px;
+    border-style:dotted;
+    /* text-align: center; */
+    margin: 0 auto;
+    margin: 60px auto 0;
+
+    /* border: 2px solid rgb(226, 77, 159); */
+
+}
+.hr5-5-1{
+    border: 2px rgb(77, 226, 99);
+    width: 900px;
+    border-style: dotted;
+    margin: 0 auto;
+    margin: 40px auto 0;
+    
+}
+.h3{
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: rgb(210, 47, 142);
+    padding-top: 30px;
+    margin: 10px;
+    word-spacing: 12px;
+    letter-spacing: 12px;
+    /* animation: s 2s infinite; */
+} 
+/* @keyframes s {
+    50%{
+        box-shadow: 10px 20px 30px 40px rgb(209, 142, 197);
+    }
+} */
+.h2{
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: rgb(210, 47, 142);
+    padding-top: 22px;
+    margin: 10px;
+    word-spacing: 12px;
+    letter-spacing: 12px;
+} 
+.hr5{
+    margin-top: 2em;
+    border: 2px solid rgb(77, 226, 99);
+    width: 900px;
+    /* border-style:dotted; */
+    margin: 0 auto;
+    margin: 60px auto 0;
+}
+.hr5-5{
+    border: 2px solid rgb(77, 226, 99);
+    width: 1300px;
+    margin: 0 auto;
+    margin: 40px auto 0;
+} 
+
+.h4{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    color: rgb(228, 100, 64);
+}
+hr{
+    width: 550px;
+    margin: 0 auto;
+    border:2px dotted;
+    color: rgb(40, 231, 40);
+}
+.beautiful{
+    color: red;
+    font-size: 150%;
+}
+.span{
+    animation: key 5s infinite;
+}
+@keyframes key{
+50%{
+    box-shadow: 2px 1px 1px 1px rgb(228, 102, 123);
+}
+}
+/* .icons{
+    padding: 0px 10px;
+    margin: 30px;
+    color: rgb(244, 53, 114);
+} */
+/* .icons{ */
+    /* padding:2px; */
+    /* margin: 0px; */
+    /* margin-left: 4em;
+    margin-top: 3em; */
+/* } */
+.home{
+    color: orangered;
+    margin-left: 800px;
+}
+.pera1{
+    border: 1px solid rgb(232, 230, 230);
+    height: 50vh;
+    width: 30vw;
+    padding: 20px;
+    margin: 116px 50px;
+    opacity: 0.7;
+    box-shadow:2px;
+    animation: sky 4s infinite;
+    border-radius: 5px;
+    /* font-style: none; */
+    /* text-decoration: none; */
+}
+@keyframes sky{
+    50%{
+        box-shadow: 10px 20px 30px 40px skyblue;
+    }
+}
+.photo1{
+    /* margin-top:-20vh; */
+    display: flex;
+    justify-content: end;
+    margin-top: -65vh;
+    height: 380px;
+    width: 600px;
+    margin-left: 860px;
+    opacity: 0.7;
+    /* border-radius: 25px; */
+}
+/* .hr1{
+    margin-top: 4em;
+    border: 2px solid rgb(226, 77, 159);
+
+}
+.hr1-1{
+    margin-top: 6em;
+    border: 2px solid rgb(226, 77, 159);
+
+
+} */
+
+/* .section,
+.peragraph,
+.pera1 {
+text-decoration: none;
+} */
+/* a:active {
+    color: blue;
+  } */
+.pera2{
+    border: 1px solid rgb(232, 230, 230);
+    height: 50vh;
+    width: 30vw;
+    padding: 20px;
+    margin: 116px 50px;
+    /* margin-top: 2px; */
+    /* float: top; */
+
+
+    opacity: 0.7;
+    box-shadow:2px;
+    animation: sky 4s infinite;
+    border-radius: 5px;
+    margin-left: 960px;
+
+}
+@keyframes sky{
+    50%{
+        box-shadow: 10px 20px 30px 40px skyblue;
+    }
+}
+.photo2{
+    /* margin-top:-20vh; */
+    display: flex;
+    justify-content: end;
+    margin-top: -78vh;
+    height: 380px;
+    width: 600px;
+    margin-right: 750px;
+    opacity: 0.7;
+}
+/* .hr2{
+    margin-top: 4em;
+    border: 2px solid rgb(226, 77, 159);
+
+
+}
+.hr2-2{
+    margin-top: 6em;
+    border: 2px solid rgb(226, 77, 159);
+
+
+} */
+.pera3{
+    border: 1px solid rgb(232, 230, 230);
+    height: 50vh;
+    width: 30vw;
+    padding: 20px;
+    margin: 116px 50px;
+    opacity: 0.7;
+    box-shadow:2px;
+    animation: sky 4s infinite;
+    border-radius: 5px;
+}
+@keyframes sky{
+    50%{
+        box-shadow: 10px 20px 30px 40px skyblue;
+    }
+}
+.photo3{
+    /* margin-top:-20vh; */
+    display: flex;
+    justify-content: end;
+    margin-top: -72vh;
+    height: 380px;
+    width: 600px;
+    margin-left: 900px;
+    opacity: 0.7;
+}
+/* .hr3{
+    margin-top: 4em;
+    border: 2px solid rgb(226, 77, 159);
+
+
+}
+.hr3-3{
+    margin-top: 6em;
+    border: 2px solid rgb(226, 77, 159);
+
+
+} */
+.pera4{
+    border: 1px solid rgb(232, 230, 230);
+    height: 50vh;
+    width: 30vw;
+    padding: 20px;
+    margin: 116px 50px;
+    opacity: 0.7;
+    box-shadow:2px;
+    animation: sky 4s infinite;
+    border-radius: 5px;
+    margin-left: 970px;
+}
+@keyframes sky{
+    50%{
+        box-shadow: 10px 20px 30px 40px skyblue;
+    }
+}
+.photo4{
+    /* margin-top:-20vh; */
+    display: flex;
+    justify-content: end;
+    margin-top: -72vh;
+    height: 380px;
+    width: 600px;
+    margin-right: 900px;
+    opacity: 0.8;
+}
+/* .hr4{
+    margin-top: 4em;
+    border: 2px solid rgb(226, 77, 159);
+
+}
+.hr4-4{
+    margin-top: 6em;
+    border: 2px solid rgb(226, 77, 159);
+
+
+} */
+.pera5{
+    border: 1px solid rgb(232, 230, 230);
+    height: 50vh;
+    width: 30vw;
+    padding: 20px;
+    margin: 116px 50px;
+    opacity: 0.7;
+    box-shadow:2px;
+    animation: sky 4s infinite;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+@keyframes sky{
+    50%{
+        box-shadow: 10px 20px 30px 40px skyblue;
+    }
+}
+.photo5{
+    /* margin-top:-20vh; */
+    display: flex;
+    justify-content: end;
+    margin-top: -72vh;
+    height: 380px;
+    width: 600px;
+    margin-left: 900px;
+    opacity: 0.7;
+}
+
+/* .hr5-5-5{
+    margin-top: 6em;
+    border: 2px solid rgb(226, 77, 159);
+}  */
+
+
+.home:hover{
+    color: rgb(167, 167, 25);
+}
+.lists:hover{
+    color: green;
+    
+}
+.icon-hover:hover{
+    color: red;
+}
+.icons:hover{
+    color: rgb(245, 8, 103);
+}
+
+/* *************************************** */
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+
+}
+.header-extradiv{
+    width: 100% ; height: auto;
+    margin: 100px 0;
+    text-align: center;
+    
+}
+.extra-div{
+    /* background: #fff; */
+    border: medium none;
+    padding: 50px!important;
+    border-radius: 3px;
+    transition: 0.3s;
+    width: 30%;
+    /* border : 1px solid red; */
+    background-color: #d15c5c;
+    border-radius: 40px;
+}
+.extra-div:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform:translateY(-20px)
+}
+.iconss{
+    color: rgb(226, 198, 43);
+    font-size: 30px;
+    padding: 20px;
+    background-color: #d15c5c;
+
+}
+.lwr-h2{
+    padding: 20px;
+    color: rgb(10, 172, 247);
+    background-color: #d15c5c;
+
+}
+.lorem-lwr{
+    /* color: rgb(255, 162, 0); */
+    background-color: #d15c5c;
+    color: white;
+
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* .google{
+    height: 34px;
+    width: 34px;
+    background-color:rgb(251, 245, 245);    
+} */
+
+
+/* ********************************************************************** */
+/* ************************************ */
+.footerContainer ,
+.socialIcons{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    color: black;
+    padding: 22px 545px 85px 140px;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 900px;
+}
+.socialIcons li a{
+    color: black;
+}
+.footerBottom p{
+    color: black;
+    padding: 0px 0px;
+    margin-top: -22vh;
+    padding: 10px 50px 40px 230px;
+    font-size: 12px;
+    margin-left: 935px;
+
+}
+.span{
+    color: rgb(234, 82, 107);
+    
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
